@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bingpage</title>
+    <style>
+        body{
+            background-image: url("bg.png");
+            background-repeat: no-repeat;
+            background-size: 100%;
+          }
+        img{
+            width: 20%;
+            float: left;
+            position: relative;
+        }
+        .title1,.title2,.title3{
+            position: relative;
+            display: inline-block;
+            padding:5px 10px;
+            background-color: #fff;
+            border-radius: 4px;
+            border:1px solid #ccc;
+            margin-top: 25px;
+        }
+        .ul1,.ul2,.ul3{
+            display: none;
+            position: absolute;
+            list-style: none;
+            border: 1px solid #eee;
+            min-width: 50px;
+            background-color: #azure;
+            padding: 10px 0px;
+            margin-top: 0px;
+        }
+        .menu1,.menu2,.menu3{
+            margin:20px 10px 20px;
+            display: inline-block;
+        }
+        .ul1 li:hover{
+            display: block;
+        }
+        .menu1:hover .ul1{
+            display: block;
+        }
+        .menu2:hover .ul2{
+            display: block;
+        }
+        .menu3:hover .ul3{
+            display: block;
+        }
+        
+        a{
+            color: rgb(197, 250, 6);
+            text-decoration:none;
+        }
+        form{
+            text-align: center;
+            margin-top: 200px;
+        }
+        input{
+            border-radius: 100px;
+            text-align: center;
+            height: 20px;
+        }
+    </style>
+</head>
+<body >
+    <img src="beijing.png" alt="图片未找到">
+            <div class="menu1">
+                <div class="title1">图片</div>
+                    <ul class="ul1">
+                        <li>
+                         <a href="">风景</a> <br>
+                         <a href="">卡通</a> <br>
+                         <a href="">其他</a>
+                       </li>
+                    </ul>
+            </div>
+            <div class="menu2">
+                <div class="title2">视频</div>
+                    <ul class="ul2">
+                        <li>
+                         <a href="">国内</a> <br>
+                         <a href="">国际</a> <br>
+                         <a href="">其他</a>
+                        </li>
+                    </ul>
+            </div>
+            <div class="menu3">
+                <div class="title3">更多</div>
+                     <ul class="ul3">
+                     <li>
+                         <a href="">咨询</a> <br>
+                         <a href="">相关</a> <br>
+                         <a href="">产品</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <form action="">
+                <input type="text" size="100px"><br><br>
+                <input type="button" value="搜索" style="height: 30px;width: 50px;">
+            </form>
+                
+</body>
+</html>
